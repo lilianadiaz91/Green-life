@@ -1,0 +1,21 @@
+.bg-footer{
+    background-color: #D6F4FE;
+}
+
+
+.height-carousel {
+    max-height: 400px;
+    min-height: 400px;
+}
+.fa-facebook{
+    font-size: 3rem;
+    color: blue;
+    }
+    .fa-phone-square-alt{
+        font-size: 3rem;
+        color: rgb(39, 204, 66); 
+    }
+    .fa-instagram-square{
+        font-size: 3rem;
+        color: rgb(201, 17, 201);
+    }
