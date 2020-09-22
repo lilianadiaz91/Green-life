@@ -1,0 +1,40 @@
+body{
+    background-image: url(./imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px !important;
+}
+.cuenta{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    height: 50px;
+    margin-top: 5px;
+    width: 450px;
+    align-items: center;
+}
+.container-div{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.color{
+    background-color:rgba(137, 230, 225, 0.644);
+}
+
+h1{
+    margin-bottom: 20px !important;
+    border-bottom: 2px black solid;
+}
+
+.imagen{
+    display: flex;
+    justify-content: space-around;
+}
