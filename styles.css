@@ -3,6 +3,7 @@
 }
 
 
+
 .height-carousel {
     max-height: 400px;
     min-height: 400px;
@@ -11,11 +12,95 @@
     font-size: 3rem;
     color: blue;
     }
-    .fa-phone-square-alt{
+    .fa-whatsapp{
         font-size: 3rem;
         color: rgb(39, 204, 66); 
     }
     .fa-instagram-square{
         font-size: 3rem;
+
         color: rgb(201, 17, 201);
     }
+.content{
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+}
+/* .list-group{
+    display: flex;
+    text-align: left;
+} */
+.container{
+    display: flex;
+}
+.list-group{
+    list-style: none;
+    
+}
+.container-p{
+    margin: 2%;
+    padding: 2%;
+    background-color: rgba(212, 211, 211, 0.24);
+}
+.container-tittle{
+    text-align: center;
+    margin-top: 5%;
+    background-color: #90FBAF;
+
+}
+h4{
+    background-color:  #D6F4FE;
+    padding: 10%;
+
+        color: rgb(141, 19, 141)
+    }
+    .img-inicio{
+        width: 100px;
+        border-radius: 100%;
+        border:2px green solid;
+    }
+    .fa-smile-beam{
+        font-size: 2rem;
+        color: rgb(39, 204, 66); 
+    }
+    .fa-frown{
+        font-size: 2rem;
+    color: blue;
+    }
+.form{
+    width: 400px;
+    height: 100px;
+}
+.card-img-top{
+    width: 250px;
+    height: 200px;
+}
+.card{
+    transition: 0.9s;
+    transform: scale(1.0);
+    cursor: pointer;
+    width: 300px;
+    height: 500px;}
+
+.card:hover{
+    border: 5px rgb(12, 151, 42) solid;
+    box-shadow: 3px 5px 5px #706f6f;
+}
+.list-group-item{
+    font-size: 15px;
+}
+.comment{
+    transition: 0.9s;
+    margin-right: 2%;
+    background-color: rgb(196, 197, 248);
+}
+.comment:hover{
+    cursor: pointer;
+    transform: scale(1.0);
+    background-color: rgb(185, 214, 204);
+    border: 5px rgb(38, 54, 99) solid;
+    box-shadow: 3px 5px 5px #706f6f;
+}
+.form-control-file{
+    color: rgb(35, 30, 66);
+
+}

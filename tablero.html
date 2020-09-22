@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tablero</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-footer">
+            <a class="navbar-brand">
+                <img src="./images/LogoH (1).png" style="width: 46%;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#main-menu" aria-controls="main-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link">¿Quienes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Boletín informativo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Crear cuenta</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Contenido-->
+
+        <!--publicaciones-->
+        <div class="container mt-3 p-4">
+            <h1 class="text-center mb-5 border-bottom border-success">Nuestros
+                Proyectos</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/tapas.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Recolectando
+                                tapas en el parque la Florida</h4>
+                            <p class="card-text text-justify">#Amigos_y_familiares</p>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item"><b>Tiempo:</b>1 hora</li>
+                            <li class="list-group-item"><b>Lugar:</b>Parque La
+                                Florida</li>
+                        </ul>
+                        <div class="card-body">
+                            <i class="far fa-smile-beam"></i>
+                            <i class="far fa-frown"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/plantando.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Sembrar arboles y
+                                matas en un jardín</h4>
+                            <p class="card-text text-justify">#Un_lugar_mas
+                                verde</p>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item"><b>Tiempo:</b>5 hora</li>
+                            <li class="list-group-item"><b>Lugar:</b>Centro</li>
+                        </ul>
+                        <div class="card-body">
+                            <i class="far fa-smile-beam"></i>
+                            <i class="far fa-frown"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/botellaes.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Realizando arte
+                                con plástico</h4>
+                            <p class="card-text text-justify">#Vida mas
+                                artistica</p>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item"><b>Tiempo:</b>30 minutos</li>
+                            <li class="list-group-item"><b>Dia:</b>Domingo</li>
+                        </ul>
+                        <div class="card-body">
+                            <i class="far fa-smile-beam"></i>
+                            <i class="far fa-frown"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--publicaciones-->
+        <!--comentarios-->
+        <div class="container mt-2 p-4">
+            <h2 class="text-center mb-5 border-bottom border-success">Comenta
+                sobre nuestros proyectos</h2>
+
+            <div class="row">
+                <div class="col align-self-center text-right">
+                    <img src="./images/usuario.png" class="img-inicio">
+                </div>
+                <div class="col align-self-center text-center">
+                    <textarea class="form" id="comentario" placeholder="Escribe tu comentario"></textarea>
+                    <label for="file">
+                        Subir foto
+                    </label>
+                    <input type="file" class="form-control-file"
+                        id="fotopublica" />
+
+                </div>
+                <div class="col align-self-center text-center">
+                    <input class="btn btn-primary" type="button"
+                        value="Publicar">
+                </div>
+
+
+            </div>
+        </div>
+        <!--comentarios-->
+        <!--comentarios-->
+        <div class="container mt-2 p-4">
+            <div class="row">
+                <div class="comment">
+                    <div class="col align-self-center text-center">
+                        <img src="./images/usuario.png" class="img-inicio">
+                    </div>
+                    <div class="col align-self-center text-center">
+                        <label id="comentario">La vida es mas alegre si
+                            sembramos un árbol</label>
+                        <div class="col align-self-center text-center">
+                            <input class="btn btn-primary" type="button"
+                                value="Comenta">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="col align-self-center text-center">
+                        <img src="./images/usuario.png" class="img-inicio">
+                    </div>
+                    <div class="col align-self-center text-center">
+                        <label id="comentario">La vida es mas alegre si
+                            sembramos un árbol</label>
+                        <div class="col align-self-center text-center">
+                            <input class="btn btn-primary" type="button"
+                                value="Comenta">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="col align-self-center text-center">
+                        <img src="./images/usuario.png" class="img-inicio">
+                    </div>
+                    <div class="col align-self-center text-center">
+                        <label id="comentario">La vida es mas alegre si
+                            sembramos un árbol</label>
+                        <div class="col align-self-center text-center">
+                            <input class="btn btn-primary" type="button"
+                                value="Comenta">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--comentarios-->
+
+
+        <!--Contenido-->
+
+
+        <!--footer-->
+        <footer>
+            <div class="container-fluid border-top bg-footer">
+                <div class="row">
+                    <div class="col-4 align-self-center text-center">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-instagram-square"></i>
+                    </div>
+                    <div class="col align-self-center text-center">
+                    </div>
+                    <div class="col align-self-center text-left" style="color:
+                        black;">
+                        <p><b>Direccion:</b>Bogota D.C.</p>
+                        <p><b>Telefono:</b>3213978447</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--footer-->
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/437f265f51.js"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
