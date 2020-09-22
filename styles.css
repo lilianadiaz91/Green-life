@@ -3,6 +3,7 @@
 }
 
 
+
 .height-carousel {
     max-height: 400px;
     min-height: 400px;
@@ -19,3 +20,33 @@
         font-size: 3rem;
         color: rgb(201, 17, 201);
     }
+.content{
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+}
+/* .list-group{
+    display: flex;
+    text-align: left;
+} */
+.container{
+    display: flex;
+}
+.list-group{
+    list-style: none;
+    
+}
+.container-p{
+    margin: 2%;
+    padding: 2%;
+    background-color: rgba(212, 211, 211, 0.24);
+}
+.container-tittle{
+    text-align: center;
+    margin-top: 5%;
+    background-color: #90FBAF;
+
+}
+h4{
+    background-color:  #D6F4FE;
+    padding: 10%;
+}
