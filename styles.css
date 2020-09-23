@@ -8,7 +8,7 @@
     max-height: 400px;
     min-height: 400px;
 }
-.fa-facebook{
+/* .fa-facebook{
     font-size: 3rem;
     color: blue;
     }
@@ -20,8 +20,8 @@
         font-size: 3rem;
 
         color: rgb(201, 17, 201);
-    }
-.content{
+    } */
+/* .content{
     text-align: center;
     margin: 5% 10% 5% 10%;
 }
@@ -29,14 +29,14 @@
     display: flex;
     text-align: left;
 } */
-.container{
+/* .container{
     display: flex;
 }
 .list-group{
     list-style: none;
     
-}
-.container-p{
+}  */
+/* .container-p{
     margin: 2%;
     padding: 2%;
     background-color: rgba(212, 211, 211, 0.24);
@@ -52,7 +52,7 @@ h4{
     padding: 10%;
 
         color: rgb(141, 19, 141)
-    }
+    } */
     .img-inicio{
         width: 100px;
         border-radius: 100%;
