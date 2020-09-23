@@ -34,7 +34,7 @@
                     <a class="nav-link" href="#">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Donaciones</a>
+                    <a class="nav-link" href="donaciones.html">Donaciones</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -46,7 +46,7 @@
                         <a class="dropdown-item" href="#">Amigos</a>
                         <a class="dropdown-item" href="#">Reportes</a>
                         <a class="dropdown-item" href="#">Configuración</a>
-                        <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                        <a class="dropdown-item" href="index.html">Cerrar Sesión</a>
                     </div>
                 </li>
             </ul>
@@ -54,7 +54,7 @@
     </nav>
 
     <div class="container-fluid">
-        <section class="container1">
+        <section class="container1 bg-light">
             <form>
                 <h3>Información Básica</h3>
                 <div class="form-row">
@@ -127,50 +127,69 @@
 
 
     <div class="container-fluid">
-        <section class="main-info">
-            <div class="contenedor2">
+        <section class="main-info ">
+            <div class="contenedor2 bg-light">
                 <h3>Intereses</h3>
                 <div>
                     <form>
                         <fieldset class="form-group">
-                          <div class="row">
-                            <div class="col-sm-10">
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                <label class="form-check-label" for="gridRadios1">
-                                  Limpiezas
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
-                                  Voluntariados
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
-                                  Animales
-                                </label>
-                              </div>
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" id="gridRadios1" value="option1"
+                                            checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Limpiezas
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Voluntariados
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Animales
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="griRadios" id="gridRadios2"
+                                            value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Proyectos
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputEmail4">Otro</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Escribe el interés">
+                                </div>
                         </fieldset>
                         <div class="form-group row">
-                          <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Sign in</button>
-                          </div>
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary">Guardar</button>
+                            </div>
                         </div>
-                      </form>
+                    </form>
                 </div>
             </div>
 
-            <div class="contenedor2">
-                <div>
-                    <h3>Redes Sociales</h3>
-                </div>
+            <div class="contenedor2 bg-light display:flex;">
                 <div>
                     <h3>Impactos</h3>
+                    <img src="./images/reciclaje.png" alt="reciclaje" width="80"> <label class="insignias" for="">70%</label>
+                    <img src="./images/arbol.png" alt="arbol" width="80"> <label class="insignias" for="">50%</label>
+                    <img src="./images/perrito.png" alt="perrito" width="80"> <label class="insignias" for="">40%</label>
+                    <form style="margin-top: 20px;">
+                        <div class="form-group">
+                          <label for="formControlRange">Avance en insignias</label>
+                          <input type="range" class="form-control-range" id="formControlRange">
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
