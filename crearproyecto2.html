@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,7 +10,7 @@
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
             crossorigin="anonymous">
-      
+
         <link type="text/css" rel="stylesheet" href="./formulario.css">
 
     </head>
@@ -42,7 +44,7 @@
         </nav>
         <!--contenido-->
         <div class="container">
-            <form class="form mt-5 p-4">
+            <form class="form ">
                 <h1 class="text-center mb-5 border-bottom border-success">Crea Proyectos</h1>
 
             <div class="row">
@@ -51,49 +53,49 @@
 
                 </div>
                 <div class="col align-self-center text-left">
-                <h2 class="title">Datos personales</h2>
-                <h3 class="subtitle">Ingrese sus datos personales y de un
-                    autorizado si es necesario</h3>
-
-                <div class="form-group normal">
-                    <input type="text" name="nombres" id="nombres"
-                        placeholder="Nombres" class="f-input" maxlength="40" />
-                        
-                    <input type="text" name="apellidos" id="apellidos"
-                        placeholder="Apellidos" class="f-input" maxlength="40"
-                        />
-                </div>
-                <div class="form-group normal">
-                    <select id="identificacion" name="identificacion"
-                        class="f-select">
-                        <option selected disabled value="">Seleccione tipo de
-                            identificación</option>
-                        <option value="cedula">Cedula ciudadana</option>
-                        <option value="pasaporte">Tarjeta de identidad</option>
-                        <option value="pasaporte">Cedula extranjera</option>
-                    </select>
-                    
-                </div>
-                <div class="form-group normal">
-                    <input type="text" name="cedula" placeholder="No. documento"
-                        class="f-input" maxlength="11" />
-                </div>
-                <div class="form-group normal">
-                    <input type="text" name="correo" id="correo"
-                        placeholder="Correo" class="f-input" maxlength="50" />
-                    <input type="text" name="telefono" id="telefono"
-                        placeholder="Numerocelular"/>
-                </div>
-                <p>¿Deseas registrar una persona como se referencia?</p>
-
-                <div class="form-group">
-                    <input type="radio" name="autorizado" id="si" value="si">
-                    <label>Si</label>
-                    <input type="radio" name="autorizado" id="no" value="no">
-                    <label>No</label>
-                </div>
-                    <a href="./crearproyecto2.html" class="btn btn-primary">Siguiente</a>
-               
+                    <div class="step" id="step-2">
+                        <h2 class="title">Descripcion del proyecto</h2>
+                        <h3 class="subtitle">Ingrese especificación del proyecto que va a realizar</h3>
+                        <div class="form-group normal">
+                            <select name="tema" id="tema">
+                                <option selected >Tema relacionado </option>
+                                <option value="contaminacion">Contaminación</option>
+                                <option value="siembra">Siembra de arboles</option>
+                                <option value="basura">Recolecta de basura</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group normal">
+                            <select name="Lugar"  class="select">
+                                <option selected >Ciudad</option>
+                                <option value="1">Bogotá</option>
+                                <option value="2">Medellín</option>
+                                <option value="3">Cartagena</option>
+                            </select>
+                        </div>
+                        <div  class="form-group normal">
+                            <input type="text" name="direccion" id="direccion"
+                        placeholder="Dirección" maxlength="50" />
+                        </div>
+                        <div class="form-group normal">
+                            <select name="Persona"  class="select">
+                                <option selected >Persona que pueden asistir</option>
+                                <option value="1">Adultos</option>
+                                <option value="2">Mayores de edad</option>
+                                <option value="3">Niños</option>
+                            </select>
+                        </div>
+                        <div class="form-group normal                                                                                                                                                                                                        ">
+                            <textarea name="descripcion"  placeholder="Descripción adicional del objeto"></textarea>
+                        </div>
+                        <div class="form-group">
+                        <label for="file">
+                            Subir foto</label>
+                        <input type="file"/></div>
+                        <a href="./crearproyecto.html" class="btn btn-primary">Regresar</a>
+ 
+                        <a href="" class="btn btn-success">Enviar</a>
+                    </div>
             </div>
         </div>
         </form>
@@ -105,7 +107,7 @@
         <!--footer-->
         <footer>
             <div class="container-fluid border-top bg-footer">
-                <div class="row">
+                <div class="row ">
                     <div class="col-4 align-self-center text-center">
                         <i class="fab fa-facebook"></i>
                         <i class="fab fa-whatsapp"></i>
