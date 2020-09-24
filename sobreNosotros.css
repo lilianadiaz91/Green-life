@@ -1,0 +1,25 @@
+.header {
+    height: 60px;
+}
+
+.fondo img {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Slider/flores.jpg);
+}
+
+.texto {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    color: white;
+    margin-left: 35%;
+}
+
+.card-header {
+    background-color: #5cc448;
+    color: white;
+    text-align: center;
+}
+
+.card-footer {
+    text-align: center;
+}
