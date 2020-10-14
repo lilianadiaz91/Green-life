@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/index.php?inicio=15 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Node.js Ya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<meta name="keywords" content="c++, programación, tutorial, nodejs">
+<meta name="description" content="El objetivo de este tutorial 
+es presentar los conceptos básicos de NodeJS.">
+<meta name="author" content="Diego Moisset">
+
+<link rel="stylesheet" type="text/css" href="./Node.js Ya_files/principal.css">
+<script async="" src="./Node.js Ya_files/analytics.js.descarga"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80268657-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<style>
+.uno { width: 320px; height: 100px; }
+@media(min-width: 500px) { .uno { width: 320px; height: 100px; } }
+@media(min-width: 800px) { .uno { width: 970px; height: 90px; } }
+
+</style>
+
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header" style="border-top-left-radius: 20px;border-top-right-radius: 20px;">
+  
+  
+  <div>
+    <div style="float:left">
+            <h1 style="font-size:4em;text-shadow: 0px 0px 15px #000;margin-left:20px;margin-bottom:0em">Node.js Ya</h1>
+            <span style="font-size:1.1em;text-shadow: 0px 0px 5px #000;margin-left:20px;color:#fff">
+            Un curso de: <a style="text-shadow: 0px 0px 5px #ff0" href="http://www.tutorialesprogramacionya.com/" target="_blank">Tutoriales Ya</a></span>
+    </div>        
+    <div style="float:right">
+      <div id="tuto">
+        <strong>Tutoriales</strong>
+        <br>
+        <a href="http://www.tutorialesprogramacionya.com/javaya" target="_blank">Java Ya</a><br>
+        <a href="http://www.tutorialesprogramacionya.com/javaya/androidya" target="_blank">Android Ya</a><br>  
+          <a href="http://www.tutorialesprogramacionya.com/csharpya" target="_blank">C# Ya</a>
+<hr>
+<a href="http://www.tutorialesprogramacionya.com/colaboracion.html" target="_blank">Donar al sitio</a><br>		  
+      </div>      
+      <br>
+      <a style="font-size:0.9em;" href="https://www.tutorialesprogramacionya.com/politicas.htm">Políticas de privacidad.</a>
+    </div>
+  </div>	
+</div>
+
+
+
+  <div id="content">
+    
+    <div style="font-size:1.1em"> 
+    <p> 
+    El objetivo de este tutorial es iniciarse en el desarrollo de programas utilizando la plataforma de Node.js.
+Se requieren coneptos previos de Javascript y se hace una introducción gradual de esta plataforma de desarrollo.<br>
+Se presentan una serie de temas donde Node.js pretende disputar terreno a lenguajes de servidor como PHP, Java, C# etc.<br>
+Aprender Node.js es una herramienta muy buena si queremos seguir aprendiendo de las bondades de Javascript.
+    </p>      
+	</div>
+
+<div style="padding:15px">
+<script async="" src="./Node.js Ya_files/f.txt"></script>
+<!-- adaptable3 -->
+<ins class="adsbygoogle uno" style="display:inline-block" data-ad-client="ca-pub-4669394804436935" data-ad-slot="2203723962"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>  
+     
+    <div style="background-color:#F2F2F2;width:96%;margin-left:2%;margin-rigth:2%;border-radius:25px;padding-top:10px"> 
+
+<ul id="menuop">    
+<li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=16&amp;codigo=16&amp;inicio=15">16 - Framework Express - Instalación</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=17&amp;codigo=17&amp;inicio=15">17 - Framework Express - servir archivos estáticos html, css, jpg, mp3, mp4, ico, js etc</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=18&amp;codigo=18&amp;inicio=15">18 - Framework Express - recuperar datos de formulario (POST) y parámetros url (GET)</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=19&amp;codigo=19&amp;inicio=15">19 - Framework Express - Generador automático</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=20&amp;codigo=20&amp;inicio=15">20 - Framework Express - Rutas de acceso y plantilla HTML</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=21&amp;codigo=21&amp;inicio=15">21 - Framework Express - Altas, Bajas, Modificación y listado de una tabla MySQL</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=22&amp;codigo=22&amp;inicio=15">22 - Framework Express - Creación y lectura de cookies</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=23&amp;codigo=23&amp;inicio=15">23 - Framework Express - Creación de variables de sesión</a></li><li><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=24&amp;codigo=24&amp;inicio=15">24 - Framework Express - Upload de archivos módulo multer</a></li>    
+</ul>    
+
+<div style="text-align:center;padding:10px;margin-bottom:5px"><span></span><span class="opcionnoselect"><a href="https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/index.php?inicio=0">1</a></span><span class="opcionselect">2</span></div>
+    
+    
+  </div>
+
+<div style="padding:15px">
+<script async="" src="./Node.js Ya_files/f.txt"></script>
+<!-- adaptable3 -->
+<ins class="adsbygoogle uno" style="display:inline-block" data-ad-client="ca-pub-4669394804436935" data-ad-slot="2203723962"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>  
+
+</div>
+
+    <div id="footer">
+        <div class="columnasitios">
+         <ul class="columnaenlaces">
+           <li>         
+             <a href="http://www.tutorialesprogramacionya.com/htmlya" class="sitiosya">HTML Ya.</a>
+           </li> 
+         </ul>
+       </div>  
+        <div class="columnasitios">       
+         <ul class="columnaenlaces">
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/cssya" class="sitiosya">CSS Ya.</a>
+           </li> 
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/cssya/css3ya" class="sitiosya">CSS3 Ya.</a>
+           </li>            
+         </ul>
+        </div>         
+        <div class="columnasitios">        
+         <ul class="columnaenlaces">
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/javascriptya" class="sitiosya">JavaScript Ya.</a>
+           </li> 
+         </ul>        
+        </div>
+        <div class="columnasitios">        
+         <ul class="columnaenlaces">
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/dhtmlya" class="sitiosya">DHTML Ya.</a> 
+           </li> 
+         </ul>
+         </div>
+        <div class="columnasitios">         
+         <ul class="columnaenlaces">
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/phpya" class="sitiosya">PHP Ya.</a>
+           </li> 
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/aspya" class="sitiosya">ASP Ya.</a>
+           </li>            
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/aspnetya" class="sitiosya">ASP.Net Ya.</a>
+           </li> 
+           <li>                    
+             <a href="http://pythonya.appspot.com/" class="sitiosya">Python Ya.</a>
+           </li>                       
+         </ul>
+        </div>
+        <div class="columnasitios">
+         <ul class="columnaenlaces">
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/mysqlya" class="sitiosya">MySQL Ya.</a>
+           </li> 
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/sqlserverya" class="sitiosya">SQL Server Ya.</a>
+           </li>            
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/oracleya" class="sitiosya">Oracle Ya.</a>
+           </li> 
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/postgresqlya" class="sitiosya">PostgreSQL Ya.</a>
+           </li>                       
+         </ul>
+        </div>
+        <div class="columnasitios">
+         <ul class="columnaenlaces">
+           <li>                    
+             <a href="http://www.tutorialesprogramacionya.com/ajaxya" class="sitiosya">AJAX Ya.</a>
+           </li> 
+         </ul>
+        </div>  
+
+      </div> <!--cierra footer -->
+    
+
+</div> <!-- cierra container -->
+
+
+
+
+</body></html>
