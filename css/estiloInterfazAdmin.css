@@ -3,7 +3,7 @@ body{
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(176, 68%, 74%, 0.123), hsla(219, 66%, 72%, 0.075), hsla(240, 51%, 67%, 0.068)), url(https://cdn.pixabay.com/photo/2018/02/03/15/40/landscape-3127859_960_720.jpg);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(176, 68%, 74%, 0.123), hsla(219, 66%, 72%, 0.075), hsla(240, 51%, 67%, 0.068)), url(https://cdn.pixabay.com/photo/2018/02/03/15/40/landscape-3127859_960_720.jpg); 
+    background: linear-gradient(to right, hsla(176, 68%, 74%, 0.123), hsla(219, 66%, 72%, 0.075), hsla(240, 51%, 67%, 0.068)),rgb(18, 87, 47); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
