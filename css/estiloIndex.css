@@ -6,13 +6,13 @@
     border-bottom: 1px solid #cccccc;
 }
 
-.nav-item{
-    margin-right: 60px;
+.navbar-brand{
+    width:150px;
 }
 
 .height-carousel {
-    max-height: 400px;
-    min-height: 400px;
+    max-height: 300px;
+    min-height: 300px;
 }
 
 .fa-facebook{
