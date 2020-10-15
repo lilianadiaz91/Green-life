@@ -10,9 +10,9 @@
     width:150px;
 }
 
-.height-carousel {
-    max-height: 300px;
-    min-height: 300px;
+.height-carousel{
+    max-height: 200px;
+    min-width: 200px;
 }
 
 .fa-facebook{
