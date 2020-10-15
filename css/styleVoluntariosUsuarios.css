@@ -1,0 +1,90 @@
+
+.bg-purple{
+    background-color: transparent;
+    border-bottom: 1px solid #cccccc;
+}
+
+.navbar{
+    border-bottom: 1px solid #cccccc;
+}
+
+.nav-item{
+    margin-right: 40px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3{
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.navbar-nav li:hover{
+    color: teal !important;
+}
+
+.fa-users{
+    color: rgb(58, 153, 45);
+    font-size: 80px;
+}
+
+.option{
+    width: 200px;
+    height: 200px;
+    margin: 3%;
+    background-color: #efebfa;
+    border: 2px #e6e6e6 solid;
+    border-right: 4px #dddddd solid;
+    border-bottom: 4px #dddddd solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.fa-facebook{
+    font-size: 3rem;
+    color: blue;
+}
+
+.fa-phone-square-alt{
+    font-size: 3rem;
+    color: rgb(39, 204, 66); 
+}
+
+.fa-instagram-square{
+    font-size: 3rem;
+    color: rgb(201, 17, 201);
+}
+
+.usuario-top img{
+    width: 150px;
+    height: 150px;
+
+}
+
+.usuario-top{
+    display: flex;
+    border-bottom:1px green  solid;
+    margin-bottom: 25px;
+padding: 30px;
+
+}
+
+.usuario-top p{
+    text-align: center;
+}
+
+.table img{
+    width: 150px;
+    height: 150px;
+}
+
+ul p {
+    text-align: left !important;
+}
