@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Donaciones</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+            crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+            rel="stylesheet">
+        <link rel="shortcut icon" href="images/Logo (1).png"
+            type="image/x-icon">
+        <link rel="stylesheet" href="./styleDonAdmin.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="./index.html"><img src="./images/LogoH (1).png" alt="logo"
+                    width="240" style="margin-right: 40px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./interfazAdmin.html">Inicio<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Boletin informativo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Voluntarios - Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./donacionesAdmin.html">Donaciones</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"
+                            id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Administrador
+                        </a>
+                        <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Mi cuenta</a>
+                            <a class="dropdown-item" href="#">Calendario</a>
+                            <a class="dropdown-item" href="#">Reportes</a>
+                            <a class="dropdown-item" href="#">Estadíticas</a>
+                            <a class="dropdown-item" href="#">Configuración</a>
+                            <a class="dropdown-item" href="#">Cerrar Sesión</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="title text-center m-5">REGISTRO DE DONACIONES</h1>
+        <section>
+            <article class="container">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="./imagenes/natural.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <h6>Recuperando el bosque</h6>
+                            <p class="card-text">Amazonas</p><br>
+
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-primary" href="#proyecto1">ver
+                                estadística</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imagenes/beach.jpg" width="40" height="230"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <h6>Limpiando la playa</h6>
+                            <p class="card-text">Buenaventura</p><br>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-primary" href="#proyecto2">ver
+                                estadística</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imagenes/voluntario.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <h6>Unidos somos más</h6>
+                            <p class="card-text">Guajira</p><br>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="btn btn-primary" href="#proyecto3">ver
+                                estadística</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="text-center m-5 p-5">
+                    <table class="table table-sm table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Proyecto 1</th>
+                                <th scope="col">Proyecto 2</th>
+                                <th scope="col">Proyecto 3</th>
+                                <th scope="col">total</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Enero</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Febrero</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Marzo</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Abril</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Mayo</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Junio</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Julio</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Agosto</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Septiembre</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Octubre</th>
+                                <td>250000</td>
+                                <td>340000</td>
+                                <td>320000</td>
+                                <td>910000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Noviembre</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Diciembre</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <th scope="row">Total</th>
+                            <td>250000</td>
+                            <td>340000</td>
+                            <td>320000</td>
+                            <td>910000</td>
+                        </tbody>
+                    </table>
+
+                </div>
+            </article>
+            <article class="container">
+                <div class="card mb-5" style="max-width: 6000px;"
+                    id="proyecto1">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./imagenes/grafica.png" class="card-img"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Quia fugiat
+                                    sed ipsum suscipit eius sequi magni officia,
+                                    error laborum totam eaque illo. Obcaecati
+                                    unde quisquam necessitatibus magni enim.
+                                    Perspiciatis, mollitia!</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-5" style="max-width: 6000px;"
+                    id="proyecto2">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./imagenes/grafica.png" class="card-img"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 2</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Repudiandae
+                                    deserunt omnis qui, fuga eveniet, repellat,
+                                    odit deleniti reiciendis fugit voluptate
+                                    beatae odio praesentium assumenda sunt
+                                    soluta pariatur aliquid ex asperiores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 6000px;"
+                    id="proyecto3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./imagenes/grafica.png" class="card-img"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 3</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing elit. Facere enim
+                                    officiis quisquam esse, et provident commodi
+                                    eligendi sint velit expedita error tenetur!
+                                    Ea voluptates laborum nesciunt maiores
+                                    similique aut quos.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/437f265f51.js"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

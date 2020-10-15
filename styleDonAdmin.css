@@ -1,0 +1,39 @@
+
+.table-dark{
+    background-color: transparent;
+    color: black;
+    border: 2px black solid;
+   
+    
+}
+.table-primary:hover{
+    box-shadow: 7px 10px 20px rgba(33, 47, 93, 0.883);
+}
+
+.btn-primary{
+    
+    justify-items: center;
+    text-align: center;
+    
+   
+}
+.table-primary th:hover{
+    background-color: white;
+    color: black;
+    
+}
+.card{
+    
+        transition: 2s;
+        transform: scale(1.0);
+        cursor: pointer;
+        
+    
+}
+.card:hover{
+    box-shadow: 7px 10px 20px rgba(33, 47, 93, 0.883);
+   
+}
+img:hover{
+    transform: scale(1.2);
+}
