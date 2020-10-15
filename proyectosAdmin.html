@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Logo (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estiloProyectoAdmin.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom: 1px solid #ccc;">
+        <img src="./images/LogoH (1).png" alt="logo" width="240" style="margin-right: 40px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="interfazAdmin.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Boletin informativo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Voluntarios - Usuarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Donaciones</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Administrador
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./iniciousu.html">Mi cuenta</a>
+                        <a class="dropdown-item" href="#">Calendario</a>
+                        <a class="dropdown-item" href="#">Reportes</a>
+                        <a class="dropdown-item" href="#">Estadísticas</a>
+                        <a class="dropdown-item" href="#">Configuración</a>
+                        <a class="dropdown-item" href="index.html">Cerrar Sesión</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container-fluid" style="margin-top: 40px; ">
+            <div class="card">
+                <div class="card-header" style="background-color: rgb(68, 163, 59);color: white; font-weight: bolder;">
+                    Gestión de proyectos
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Proyectos creados</h5>
+                    <p class="card-text">Proyectos creados por los usuarios en el sistemas.</p>
+                    <!--<a href="#" class="btn btn-primary"><i class="fas fa-plus" style="margin-right: 10px;"></i>Nuevo
+                        Proyecto</a>-->
+                </div>
+                <div>
+                    <table class="table">
+                        <thead>
+                            <th>Nombre</th>
+                            <th>Estado</th>
+                            <th>Creado por</th>
+                            <th>Progreso</th>
+                            <th></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jornada de reciclaje en la localidad de Suba</td>
+                                <td>Activo</td>
+                                <td>Marcela Orguña</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                            style="background-color:orange!important;"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger"><i
+                                            class="fas fa-trash-alt"></i></button>
+                                    <button type="button" class="btn btn-success"><i
+                                            class="fas fa-pencil-alt"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="fas fa-eye"></i></button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Voluntariado recolección y entrega de tapas plásticas</td>
+                                <td>Activo</td>
+                                <td>Sneider Franco</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger"><i
+                                            class="fas fa-trash-alt"></i></button>
+                                    <button type="button" class="btn btn-success"><i
+                                            class="fas fa-pencil-alt"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="fas fa-eye"></i></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Limpieza a orillas del río Magdalena</td>
+                                <td>Activo</td>
+                                <td>Armando Meneses</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 15%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger"><i
+                                            class="fas fa-trash-alt"></i></button>
+                                    <button type="button" class="btn btn-success"><i
+                                            class="fas fa-pencil-alt"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="fas fa-eye"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card-deck" style="margin-top: 40px; margin-bottom: 40px;">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/26/23/45/dog-1861839_960_720.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ayuda a perritos de la calle</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ut molestias
+                            commodi recusandae. Facere obcaecati, optio veritatis nulla, iusto nisi maxime non,
+                            asperiores explicabo numquam perspiciatis quae eos error. Dolorem.</p>
+                        <p class="card-text"><small class="text-muted">Creado hace 24 h - David Bisbal</small></p>
+                        <button type="button" class="btn btn-success">Aprobar</button>
+                        <button type="button" class="btn btn-danger">Desaprobar</button>
+                        <button type="button" class="btn btn-primary">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658_960_720.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Plantación masiva de árboles</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+                            accusamus, at asperiores quam facere eos iusto ut provident in illo consequatur aut! Illum
+                            aperiam fugit vero totam corporis. Sint, temporibus.</p>
+                        <p class="card-text"><small class="text-muted">Creado hace 3 mins - Mariana Hernández</small>
+                        </p>
+                        <button type="button" class="btn btn-success">Aprobar</button>
+                        <button type="button" class="btn btn-danger">Desaprobar</button>
+                        <button type="button" class="btn btn-primary">Ver detalles</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/27/15/01/vegetables-742095_960_720.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Huerta personal en casa</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum illum dolore
+                            repellat tenetur? Exercitationem, repellat molestias. Numquam vel doloribus nesciunt porro,
+                            necessitatibus enim, ullam quos suscipit tenetur assumenda eum fugiat!</p>
+                        <p class="card-text"><small class="text-muted">Creado hace 4 h - Luz Caicedo</small></p>
+                        <button type="button" class="btn btn-success">Aprobar</button>
+                        <button type="button" class="btn btn-danger">Desaprobar</button>
+                        <button type="button" class="btn btn-primary">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/437f265f51.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
