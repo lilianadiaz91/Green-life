@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 .bg-footer {
     background-color: white;
     padding: 25px;
@@ -48,4 +51,10 @@
 .fa-instagram-square {
     font-size: 3rem;
     color: rgb(201, 17, 201);
+}
+
+.fa-eye{
+    color:green;
+    font-size: 2rem;
+
 }
